@@ -47,9 +47,12 @@ Users can generate posts based on:
 
 ## 📦 Project Structure
 
-├── main.py # Streamlit UI & flow ├── requirements.txt # Dependencies ├── data/ │ ├── llm_helper.py # LLM initialization & API calls │ └── post_generator.py # Core function to generate posts └── README.
-
-
+├── main.py # Streamlit UI & flow 
+├── requirements.txt # Dependencies 
+├── data/ 
+│ ├── llm_helper.py # LLM initialization & API calls 
+│ └── post_generator.py # Core function to generate posts 
+└── README.
 
 ---
 
@@ -61,19 +64,27 @@ Users can generate posts based on:
 5. Output is displayed with formatting and copy options  
 
 ---
+##🚀 Deployment
 
-## 🚀 Deploying the App
-The app is deployed using **Streamlit Community Cloud**.
+Deployed using Streamlit Community Cloud.
 
 Steps:
-1. Push your repository to GitHub  
-2. Go to Streamlit Cloud → “New app”  
-3. Select repository & branch  
-4. Add your `GROQ_API_KEY` under **Secrets**  
-5. Deploy 🚀  
 
+1.Push project to GitHub
+2.Go to Streamlit Cloud → New app
+3.Select repo & branch
+4.Add GROQ_API_KEY under Secrets
+5.Deploy 🚀
 ---
+##🔒 Environment Variables (Secrets)
+Add this in Streamlit → Settings → Secrets:
 
-## 🔑 Environment Variables (Secrets)
-Add this in **Streamlit → Settings → Secrets**:
+''' GROQ_API_KEY = "your_groq_api_key_here" 
+---
+## 📥 Installation (Local Setup)
 
+'''bash
+git clone https://github.com/GLavanya15/LINKEDIN-POST-GENERATOR.git
+cd LINKEDIN-POST-GENERATOR
+pip install -r requirements.txt
+streamlit run main.py
