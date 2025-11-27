@@ -65,11 +65,9 @@ Users can generate posts based on:
 
 ---
 ## 🚀 Deployment
-
 Deployed using Streamlit Community Cloud.
 
-Steps:
-
+### Steps:
 1.Push project to GitHub
 2.Go to Streamlit Cloud → New app
 3.Select repo & branch
@@ -78,12 +76,13 @@ Steps:
 ---
 ## 🔒 Environment Variables (Secrets)
 Add this in Streamlit → Settings → Secrets:
+```ini
+GROQ_API_KEY = "your_groq_api_key_here"
 
-''' GROQ_API_KEY = "your_groq_api_key_here" 
 ---
 ## 📥 Installation (Local Setup)
 
-'''bash
+```bash
 git clone https://github.com/GLavanya15/LINKEDIN-POST-GENERATOR.git
 cd LINKEDIN-POST-GENERATOR
 pip install -r requirements.txt
