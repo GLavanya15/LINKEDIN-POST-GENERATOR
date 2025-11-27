@@ -78,6 +78,7 @@ Deployed using Streamlit Community Cloud.
 Add this in Streamlit → Settings → Secrets:
 ```ini
 GROQ_API_KEY = "your_groq_api_key_here"
+```
 
 ---
 ## 📥 Installation (Local Setup)
@@ -87,3 +88,4 @@ git clone https://github.com/GLavanya15/LINKEDIN-POST-GENERATOR.git
 cd LINKEDIN-POST-GENERATOR
 pip install -r requirements.txt
 streamlit run main.py
+```
