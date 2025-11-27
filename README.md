@@ -64,7 +64,7 @@ Users can generate posts based on:
 5. Output is displayed with formatting and copy options  
 
 ---
-##🚀 Deployment
+## 🚀 Deployment
 
 Deployed using Streamlit Community Cloud.
 
@@ -76,7 +76,7 @@ Steps:
 4.Add GROQ_API_KEY under Secrets
 5.Deploy 🚀
 ---
-##🔒 Environment Variables (Secrets)
+## 🔒 Environment Variables (Secrets)
 Add this in Streamlit → Settings → Secrets:
 
 ''' GROQ_API_KEY = "your_groq_api_key_here" 
