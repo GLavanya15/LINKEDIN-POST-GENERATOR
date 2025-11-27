@@ -46,14 +46,14 @@ Users can generate posts based on:
 ---
 
 ## 📦 Project Structure
-
+```
 ├── main.py # Streamlit UI & flow 
 ├── requirements.txt # Dependencies 
 ├── data/ 
 │ ├── llm_helper.py # LLM initialization & API calls 
 │ └── post_generator.py # Core function to generate posts 
 └── README.
-
+```
 ---
 
 ## ⚙️ How It Works
