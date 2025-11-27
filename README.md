@@ -68,11 +68,11 @@ Users can generate posts based on:
 Deployed using Streamlit Community Cloud.
 
 ### Steps:
-1.Push project to GitHub
-2.Go to Streamlit Cloud → New app
-3.Select repo & branch
-4.Add GROQ_API_KEY under Secrets
-5.Deploy 🚀
+1. Push project to GitHub
+2. Go to Streamlit Cloud → New app
+3. Select repo & branch
+4. Add GROQ_API_KEY under Secrets
+5. Deploy 🚀
 ---
 ## 🔒 Environment Variables (Secrets)
 Add this in Streamlit → Settings → Secrets:
